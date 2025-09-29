@@ -7,3 +7,8 @@
 osdshim_wrap.cpp
 shim.py
 .DS_Store
+
+# HH
+_rez_build
+.vscode
+.idea
