@@ -1,6 +1,6 @@
 name = "OpenSubdiv"
 
-version = "3.6.1.hh.1.0.0"
+version = "3.6.1.hh.1.0.1"
 
 authors = [
     "Pixar",
