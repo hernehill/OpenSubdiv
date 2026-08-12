@@ -22,11 +22,9 @@ requires = [
 private_build_requires = []
 
 variants = [
-    # ["python-3.7"],
     ["python-3.9"],
     ["python-3.10"],
     ["python-3.11"],
-    # ["python-3.12"],
 ]
 
 
@@ -37,7 +35,7 @@ def commands():
     env.OPENSUBDIV_LOCATION = "{root}"
 
     env.PATH.append("{root}/bin")
-    env.LD_LIBRARY_PATH.append("{root}/lib")
+    env.PATH.append("{root}/lib")
 
 
 uuid = "repository.OpenSubdiv"
