@@ -1,6 +1,6 @@
 name = "OpenSubdiv"
 
-version = "3.6.1.hh.1.0.3"
+version = "3.6.1.hh.1.0.4"
 
 authors = [
     "Pixar",
@@ -19,7 +19,9 @@ requires = [
     "tbb-2021.9",
 ]
 
-private_build_requires = []
+private_build_requires = [
+    "visual_studio"
+]
 
 variants = [
     ["python-3.9"],
