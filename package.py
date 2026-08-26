@@ -36,7 +36,6 @@ def commands():
     env.OPENSUBDIV_ROOT_DIR = "{root}"
     env.OPENSUBDIV_LOCATION = "{root}"
 
-    env.PATH.append("{root}/bin")
     env.PATH.append("{root}/lib")
 
 
