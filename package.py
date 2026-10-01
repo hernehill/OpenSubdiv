@@ -1,6 +1,6 @@
 name = "OpenSubdiv"
 
-version = "3.6.1.hh.1.0.3"
+version = "3.7.0.hh.1.0.0"
 
 authors = [
     "Pixar",
@@ -16,17 +16,16 @@ with scope("config") as c:
 requires = [
     "clew",
     "glfw",
-    "tbb-2021.9",
+    "tbb-2022.0",
 ]
 
 private_build_requires = []
 
 variants = [
-    # ["python-3.7"],
     ["python-3.9"],
     ["python-3.10"],
     ["python-3.11"],
-    # ["python-3.12"],
+    ["python-3.13"],
 ]
 
 
